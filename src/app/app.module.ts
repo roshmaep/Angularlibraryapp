@@ -8,6 +8,7 @@ import { BookViewComponent } from './book-view/book-view.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegComponent } from './user-reg/user-reg.component';
 import { IssueBookComponent } from './issue-book/issue-book.component';
+import { BookSearchComponent } from './book-search/book-search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { IssueBookComponent } from './issue-book/issue-book.component';
     BookViewComponent,
     UserLoginComponent,
     UserRegComponent,
-    IssueBookComponent
+    IssueBookComponent,
+    BookSearchComponent
   ],
   imports: [
     BrowserModule,
