@@ -13,6 +13,7 @@ import { BookDeleteComponent } from './book-delete/book-delete.component';
 import { BookEditComponent } from './book-edit/book-edit.component';
 import { BookEntryComponent } from './book-entry/book-entry.component';
 import { Route, RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute:Routes=[
   {
@@ -45,11 +46,19 @@ const myRoute:Routes=[
   },
   {
     path:"bookedit",
-    component:BookEntryComponent
+    component:BookEditComponent
   },
   {
     path:"bookdelete",
     component:BookDeleteComponent
+  },
+  {
+    path:"userreg",
+    component:UserRegComponent
+  },
+  {
+    path:"userlogin",
+    component:UserLoginComponent
   }
   
 ]
@@ -64,7 +73,8 @@ const myRoute:Routes=[
     BookSearchComponent,
     BookDeleteComponent,
     BookEditComponent,
-    BookEntryComponent
+    BookEntryComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
