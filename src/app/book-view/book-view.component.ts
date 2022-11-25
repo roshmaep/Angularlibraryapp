@@ -9,8 +9,8 @@ export class BookViewComponent {
   books:any=[
     {
       "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqcERi7vi1hEO5VoavurFbczgqMFuahpgnHQ&usqp=CAU",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"Adujeevitham",
+      "author":"Basheer",
       "view more":"view more"
     }
     ,
@@ -23,43 +23,43 @@ export class BookViewComponent {
     ,
     {
       "image":"https://www.softwaretestinghelp.com/wp-content/qa/uploads/2022/01/cover-edition-Treasure-Island-Robert-Louis-Stevenson1.jpg",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"Harry Porter",
+      "author":"Rowling",
       "viewmore":"view more"
     }
     ,
     {
       "image":"https://www.softwaretestinghelp.com/wp-content/qa/uploads/2022/01/gone_girl_books_fb.jpg",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"The diary of young girl",
+      "author":"Pallavali",
       "viewmore":"view more"
     }
     ,
     {
       "image":"https://s0.2mdn.net/simgad/8887184346372631890",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"Stephen King",
+      "author":"Lee",
       "viewmore":"view more"
     }
     ,
     {
       "image":"https://www.softwaretestinghelp.com/wp-content/qa/uploads/2022/01/best-seller1.jpg",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"design anything",
+      "author":"Jhon Paul",
       "viewmore":"view more"
     }
     ,
     {
       "image":"https://www.softwaretestinghelp.com/wp-content/qa/uploads/2022/01/Diary-of-a-young-girl.jpg",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"Treasure Island",
+      "author":"Willam",
       "viewmore":"view more"
     }
     ,
     {
       "image":"https://www.softwaretestinghelp.com/wp-content/qa/uploads/2022/01/Watchmen_HC.jpg",
-      "title":"Watchmen",
-      "author":"Stan Lee",
+      "title":"Romeo and Juelio",
+      "author":"William Shakespeare",
       "viewmore":"view more"
     }
     
