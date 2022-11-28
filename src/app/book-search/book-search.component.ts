@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./book-search.component.css']
 })
 export class BookSearchComponent {
+  title=""
+  readValues=()=>
+  {
+    let data:any={
+    "title":this.title}
+    console.log(data)
+  }
+
 
 }
