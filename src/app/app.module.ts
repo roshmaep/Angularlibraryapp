@@ -15,7 +15,11 @@ import { BookEntryComponent } from './book-entry/book-entry.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
-
+import {HttpClientModule} from '@angular/common/http';
+import { NavadminComponent } from './navadmin/navadmin.component';
+import { NavuserComponent } from './navuser/navuser.component';
+import { NavviewComponent } from './navview/navview.component';
+import { UserbookviewComponent } from './userbookview/userbookview.component';
 const myRoute:Routes=[
   {
      path:"",
@@ -60,6 +64,15 @@ const myRoute:Routes=[
   {
     path:"userlogin",
     component:UserLoginComponent
+  },{
+    path:"navuser",
+    component:NavuserComponent
+  },{
+    path:"userview",
+    component:UserbookviewComponent
+  },{
+    path:"navview",
+    component:NavviewComponent
   }
   
 ]
@@ -75,13 +88,18 @@ const myRoute:Routes=[
     BookDeleteComponent,
     BookEditComponent,
     BookEntryComponent,
-    NavbarComponent
+    NavbarComponent,
+    NavadminComponent,
+    NavuserComponent,
+    NavviewComponent,
+    UserbookviewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRoute),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
